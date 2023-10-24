@@ -39,22 +39,17 @@ def upload_file():
                     .replace("NAME", name) \
                     .replace("DATE", date) \
                     .replace("TIME", time)
-                #current_time = datetime.now() + timedelta(minutes=1)
-
-                #pw.sendwhatmsg(number, message, int(current_time.hour), int(current_time.minute), 13, True, 2)
-                #time.sleep(30)
+                
                 waLink = "https://web.whatsapp.com/send?phone="+str(number)
                 print(waLink)
                 pyperclip.copy(message)
-                #pt.hotkey("ctrl", "t")
-                #pt.sleep(1)
+                
                 pt.hotkey("ctrl","l")
                 pt.typewrite(waLink)
                 pt.press("enter")
                 pt.sleep(15)
                 pt.click(x=(screenWidth*3)//4, y=(screenHeight*9)//10)
                 
-                #pt.typewrite(message)
                 pt.hotkey('ctrl', 'v')
                 pt.sleep(1)
                 pt.press("enter")
