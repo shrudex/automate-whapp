@@ -1,4 +1,4 @@
-# AutomateWhapp🗣️
+# AutomateWHAPP🗣️
 
 **AutomateWhapp** is a handy tool for sending customized messages to multiple recipients on WhatsApp. Whether you need to send messages for different societies, clubs in colleges to schedule interviews, or any other group of people, _AutomateWhapp_ streamlines the process, saving you time and effort. It allows you to send _bulk messages_ with personalized _names, dates, and times_ to random phone numbers, all in just one click.
 
