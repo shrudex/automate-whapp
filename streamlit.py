@@ -3,6 +3,7 @@ import openpyxl
 import pyautogui as pt
 import pyperclip
 
+
 st.title('AutomateWhapp')
 st.markdown('Transform your WhatsApp messaging experience with streamlined automation and personalization.')
 
